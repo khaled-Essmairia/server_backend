@@ -44,7 +44,7 @@ public class ServerRessource {
                         .build()
 				);
 	}
-	/* @GetMapping("/ping/{ipAddress}")
+        @GetMapping("/ping/{ipAddress}")
 	public ResponseEntity<Response> pingServer(@PathVariable("ipAddress") String address) throws InterruptedException{
 		Server server = (Server) serverService.ping(address);
 		return ResponseEntity.ok(
@@ -56,7 +56,7 @@ public class ServerRessource {
                 .statusCode(OK.value())
                 .build()
 				);
-	}*/
+	}
 	 
 	    @GetMapping("/get/{id}")
 	    public ResponseEntity<Response> getServer(@PathVariable("id") Long id) {
