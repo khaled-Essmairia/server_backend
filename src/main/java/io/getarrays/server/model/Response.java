@@ -10,7 +10,6 @@ import lombok.experimental.SuperBuilder;
 
 @Data
 @SuperBuilder
-
 public class Response {
 
    protected LocalDateTime timeStamp;

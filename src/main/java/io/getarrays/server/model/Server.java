@@ -21,7 +21,7 @@ public class Server {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@Column(unique = true)
-	@NotEmpty(message = "IP Adress con not be empty or null")
+  //  @NotEmpty(message = "IP Address cannot be empty or null")
 	private String ipAddress;
 	private String name;
 	private String memory;
